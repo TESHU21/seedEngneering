@@ -1,5 +1,6 @@
 import React from 'react';
 import ElectroImage from "../../../assets/Motors.png"
+import WelcomeSection from '@/pages/about/components/WelcomeSection';
 
 const AboutUs = () => {
   // Directly using the contentFetchId for the uploaded image
@@ -7,6 +8,7 @@ const AboutUs = () => {
   const AboutUsImage = 'uploaded:image_50cfd2.jpg-0faefb73-5667-4564-89f7-4198583a74d6'; 
 
   return (
+    <div>
     <section className="flex flex-col md:flex-row items-center justify-center py-16 px-4 sm:px-8 lg:px-16 bg-gray-50">
       {/* Left Content Area */}
       <div className="w-full md:w-1/2 lg:w-2/5 flex flex-col items-center md:items-start text-center md:text-left mb-8 md:mb-0 md:pr-8">
@@ -36,7 +38,10 @@ const AboutUs = () => {
           }}
         />
       </div>
+
     </section>
+    <WelcomeSection/>
+    </div>
   );
 };
 
