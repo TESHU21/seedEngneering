@@ -12,8 +12,8 @@ const ExperienceSection = () => {
       <div className="container mx-auto">
         {/* Top Heading and Main Introductory Paragraph */}
         <div className="flex flex-col items-center text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Decades of Electromechanical Expertise
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+            Years of Electromechanical Expertise
           </h2>
           <p className="text-base sm:text-lg text-gray-700 max-w-3xl">
             With extensive experience in the industry, SEED Engineering delivers robust and innovative solutions. We are committed to tackling complex challenges and achieving exceptional results in every project we undertake.

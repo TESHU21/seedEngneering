@@ -44,8 +44,8 @@ const WelcomeSection = () => {
         <p className="text-orange-600 font-semibold text-sm uppercase tracking-wider mb-2">
           Welcome to SEED Engineering
         </p>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-          Decades of Experience in Electromechanical Excellence
+        <h2 className="text-3xl sm:text-4xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
+          Years of Experience in Electromechanical Excellence
         </h2>
         <p className="text-base sm:text-lg text-gray-700 mb-6 max-w-md">
           We are ready to power your projects with unparalleled expertise. Specializing in comprehensive electro-mechanical solutions, we bring your industrial visions to life.

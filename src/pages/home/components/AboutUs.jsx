@@ -1,5 +1,5 @@
 import React from 'react';
-import ElectroImage from "../../../assets/Motors.png"
+import ElectroImage from "../../../assets/MotorImage.jpg"
 import WelcomeSection from '@/pages/about/components/WelcomeSection';
 
 const AboutUs = () => {

@@ -124,7 +124,7 @@ const Project = () => {
       {/* Call to Action Section (Optional):
           A section to encourage users to contact for new projects.
       */}
-      <section className="bg-blue-700 text-white py-12 px-4 sm:px-8 lg:px-16 text-center">
+      <section className="bg-slate-500 my-4 mb-10 text-white py-12 px-4 sm:px-8 lg:px-16 text-center">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-4">Have a Project in Mind?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">

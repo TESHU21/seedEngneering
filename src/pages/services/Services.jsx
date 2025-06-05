@@ -104,7 +104,7 @@ const Services = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="bg-blue-700 text-white py-12 px-4 sm:px-8 lg:px-16 text-justify">
+      <section className="bg-slate-300 mt-4 md:mb-10 text-white py-12 px-4 sm:px-8 lg:px-16 text-justify">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
