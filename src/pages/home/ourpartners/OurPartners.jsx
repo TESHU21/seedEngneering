@@ -18,13 +18,16 @@ import EtioTelecomLogo from "../../../assets/partners/EthioTelecom.jpg"
 import AwashBanklogo from "../../../assets/partners/AwashLogo.jpg"
 
 const partners = [
-  { name: "Nedamco Africa", logo: Nedamco },
-  { name: "Shemu", logo: ShemuLogo },
   {name:"Pepsico",logo:PepsicoLogo},
-  {name:"DagEngineering",logo:DagLogo},
+   { name: "Shemu", logo: ShemuLogo },
+  { name: "Nedamco Africa", logo: Nedamco },
   {name:"cbe",logo:CBELogo},
   {name:"ethioTelecom",logo:EtioTelecomLogo},
   {name:"awashBank",logo:AwashBanklogo},
+ 
+  
+  {name:"DagEngineering",logo:DagLogo},
+  
 
    
 ];

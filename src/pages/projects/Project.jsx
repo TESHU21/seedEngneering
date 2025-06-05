@@ -9,15 +9,8 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Link } from 'react-router-dom';
 import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
-
-// Import the ProjectItem component
-// Make sure ProjectItem.jsx is in the same directory or adjust the path
+import TafImage from "../../assets/our services/TafImage.jpg"
 import ProjectItem from './components/ProjectItem'; 
-
-// Placeholder for the background image for the breadcrumb section
-// Replace with your actual image contentFetchId or path if available
-
-// Project data (can be imported from a separate file if preferred)
 const projectsList = [
   {
     image: 'https://placehold.co/600x337/F0F4F8/1A202C?text=SCADA+System',
@@ -50,7 +43,7 @@ const projectsList = [
     link: "/projects/wawi-milk-dairy-plant"
   },
   {
-    image: 'https://placehold.co/600x337/77808A/77808A?text=Agro+Processing',
+    image: TafImage,
     title: "TF Agro Processing PLC: Full Dairy Plant Installation",
     description: "Turnkey dairy plant installation for TF Agro processing plc, delivering state-of-the-art facilities for large-scale production.",
     link: "/projects/tf-agro-processing"

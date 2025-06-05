@@ -38,7 +38,8 @@ const Footer = () => {
     <div  className='sm:col-span-2 md:col-span-2'>
       <ul className=' flex flex-col gap-[14px]'>
         <li className="font-semibold text-[20px] leading-8" >Contact</li>
-        <li>+251921670994</li>
+        <li>support@seedengineeringplc.com</li>
+        <li>+251923965946</li>
         <li>Addis Ababa,Ethiopia</li>
       </ul>
     </div>

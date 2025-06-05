@@ -100,7 +100,7 @@ const Contact = () => {
                   <Mail className="text-blue-600 w-6 h-6 mt-1" />
                   <div>
                     <p className="font-semibold">Email:</p>
-                    <p>Michael.H@seedengineeringplc.com</p>
+                    <p>support@seedengineeringplc.com</p>
                   </div>
                 </div>
               </div>
