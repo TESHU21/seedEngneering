@@ -1,12 +1,15 @@
 // app/(your-page)/OurTeam.jsx
 import TeamCard from "./TeamCard";
+import MichaelImage from "../../../assets/Michael Hadera.jpg"
+import TewodrosImage from "../../../assets/Tewdros Eshetu.jpg"
+import HaileImage from "../../../assets/HailePhoto.jpg"
 
 const teamMembers = [
   {
-    name: "Jonathan Scott",
-    role: "CEO & Architect",
-    email: "info@example.com",
-    image: "/images/jonathan.jpg",
+    name: "Hilemicheal Niguse",
+    role: "CEO & ElectroMechanical Engineer",
+    email: "haile.n@seedengineeringplc.com",
+    image: HaileImage,
     socials: {
       facebook: "https://facebook.com/jonathan",
       twitter: "https://twitter.com/jonathan",
@@ -15,10 +18,10 @@ const teamMembers = [
     },
   },
   {
-    name: "Benjamin Austin",
-    role: "Chief Engineer",
-    email: "info@example.com",
-    image: "/images/benjamin.jpg",
+    name: "Michael Hadera",
+    role: "Co-founder & Chief Engineer",
+    email: "michael.h@seedengineeringplc.com",
+    image: MichaelImage,
     socials: {
       facebook: "https://facebook.com/benjamin",
       twitter: "https://twitter.com/benjamin",
@@ -27,10 +30,10 @@ const teamMembers = [
     },
   },
   {
-    name: "John Oliver",
-    role: "Project Manager",
-    email: "info@example.com",
-    image: "/images/john.jpg",
+    name: "Tewdros Eshetu",
+    role: "Welding Specialist",
+    // email: "info@example.com",
+    image: TewodrosImage,
     socials: {
       facebook: "https://facebook.com/john",
       twitter: "https://twitter.com/john",
@@ -38,25 +41,28 @@ const teamMembers = [
       email: "info@example.com",
     },
   },
-  {
-    name: "Philip Alvarez",
-    role: "Finances",
-    email: "info@example.com",
-    image: "/images/philip.jpg",
-    socials: {
-      facebook: "https://facebook.com/philip",
-      twitter: "https://twitter.com/philip",
-      linkedin: "https://linkedin.com/in/philip",
-      email: "info@example.com",
-    },
-  },
+  // {
+  //   name: "Philip Alvarez",
+  //   role: "Finances",
+  //   email: "info@example.com",
+  //   image: "/images/philip.jpg",
+  //   socials: {
+  //     facebook: "https://facebook.com/philip",
+  //     twitter: "https://twitter.com/philip",
+  //     linkedin: "https://linkedin.com/in/philip",
+  //     email: "info@example.com",
+  //   },
+  // },
 ];
 
 export default function OurTeam() {
   return (
-    <section className="py-16  text-center md:px-24">
+    <section className=" flex flex-col justify-around py-16  text-center md:px-24">
       <h2 className="text-3xl font-bold text-orange-600 mb-2">Our Team</h2>
-      <div className="mt-10 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center">
+      <div>
+
+      </div>
+      <div className="md:px-30 mt-10 grid gap-1 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
         {teamMembers.map((member) => (
           <TeamCard key={member.name} {...member} />
         ))}

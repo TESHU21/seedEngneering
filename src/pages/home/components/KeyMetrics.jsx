@@ -8,22 +8,22 @@ const KeyMetrics = () => {
   const metrics = [
     {
       icon: <Hammer className="h-10 w-10 text-orange-400 mb-2" />, // Icon for Projects
-      number: 598,
+      number: 21,
       label: 'Projects',
     },
     {
       icon: <Users className="h-10 w-10 text-blue-400 mb-2" />, // Icon for Clients
-      number: 128,
+      number: 10,
       label: 'Clients',
     },
     {
       icon: <Rocket className="h-10 w-10 text-green-400 mb-2" />, // Icon for Success
-      number: 114,
+      number: 14,
       label: 'Success',
     },
     {
       icon: <Award className="h-10 w-10 text-yellow-400 mb-2" />, // Icon for Awards
-      number: 109,
+      number: 20,
       label: 'Awards',
     },
   ];

@@ -9,14 +9,24 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import ShemuLogo from "../../../assets/partners/SHEMLOGO.jpg"
+import PepsicoLogo from "../../../assets/partners/PEPSICOLogo.jpg"
+import Nedamco from "../../../assets/partners/LOGO-Nedamco-Africa-ZWART.png"
+import DagLogo from "../../../assets/partners/dagLogo.jpg"
+import CBELogo from "../../../assets/partners/CBELogo.jpg"
+import EtioTelecomLogo from "../../../assets/partners/EthioTelecom.jpg"
+import AwashBanklogo from "../../../assets/partners/AwashLogo.jpg"
 
 const partners = [
-  { name: "Partner 1", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner1", link: "https://partner1.com" },
-  { name: "Partner 2", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner2", link: "https://partner2.com" },
-  { name: "Partner 3", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner3", link: "https://partner3.com" },
-  { name: "Partner 4", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner4", link: "https://partner4.com" },
-  { name: "Partner 5", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner5", link: "https://partner5.com" },
-  { name: "Partner 6", logo: "https://placehold.co/100x50/E2E8F0/4A5568?text=Partner6", link: "https://partner6.com" },
+  { name: "Nedamco Africa", logo: Nedamco },
+  { name: "Shemu", logo: ShemuLogo },
+  {name:"Pepsico",logo:PepsicoLogo},
+  {name:"DagEngineering",logo:DagLogo},
+  {name:"cbe",logo:CBELogo},
+  {name:"ethioTelecom",logo:EtioTelecomLogo},
+  {name:"awashBank",logo:AwashBanklogo},
+
+   
 ];
 
 export default function OurPartners() {
@@ -36,19 +46,14 @@ export default function OurPartners() {
               className="basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center items-center"
             >
               <div className="bg-white p-4 rounded-lg shadow-sm w-full h-full flex justify-center items-center">
-                <a
-                  href={partner.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
+                
                   <img
                     src={partner.logo}
                     alt={partner.name}
                     className="h-20 w-auto object-contain hover:scale-105 transition-transform duration-300"
                    
                   />
-                </a>
+                
               </div>
             </CarouselItem>
           ))}
