@@ -68,8 +68,8 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className='md:hidden flex justify-between p-[17px] items-center'>
         <div className='flex items-center  gap-[2.3px]'>
-          <img src={SeedLogo} alt=" Logo of Letter Cj" className='w-[20.6px] h-[19.1px]' />
-          <span className='font-bold font-lusitana text-[16.54px] leading-[100%]'>Seed Engineering</span>
+          <img src={SeedLogo} alt=" Logo of Letter Cj" className='w-auto h-16' />
+          {/* <span className='font-bold font-lusitana text-[16.54px] leading-[100%]'>Seed Engineering</span> */}
         </div>
         {menuVisiblity ? (<X onClick={handleClick} />) : (<AlignJustify onClick={handleClick} />)}
       </div>
