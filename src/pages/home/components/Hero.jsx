@@ -65,9 +65,9 @@ const Hero = () => {
 
         </h1>
         <p className="text-base sm:text-lg max-w-[90%] md:max-w-[427px]">
-            <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
+            
           Transform your vision into reality. Discover how our expertise in industrial automation, machinery, HVAC, and metal works can power your next project.
-        </p>
+       
         </p>
         <button
           onClick={handleGetStarted}

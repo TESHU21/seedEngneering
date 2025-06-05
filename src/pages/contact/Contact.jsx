@@ -11,6 +11,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from 'react-router-dom';
+import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,7 +46,7 @@ const Contact = () => {
       {/* Breadcrumb Header */}
       <header
         className="relative flex items-center justify-center h-64 bg-cover bg-center"
-     
+       style={{ backgroundImage: `url(${BackgroundImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-gray-700/70 to-transparent z-0" />
         <div className="relative z-10 text-white text-3xl font-semibold">
@@ -56,9 +57,9 @@ const Contact = () => {
                   <Link to="/" className="text-xl hover:underline">Home</Link>
                 </BreadcrumbLink>
               </BreadcrumbItem>
-              <BreadcrumbSeparator />
+              <BreadcrumbSeparator className="text-black" />
               <BreadcrumbItem>
-                <BreadcrumbPage className="text-xl">Contact</BreadcrumbPage>
+                <BreadcrumbPage className="text-xl ">Contact</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>

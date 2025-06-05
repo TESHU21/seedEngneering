@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, NavLink } from 'react-router-dom';
-import SeedLogo from '../../assets/SeedLogo.png'; // Ensure this path is correct if you uncomment the logo
+import SeedLogo from '../../assets/Seed Logo.png'; // Ensure this path is correct if you uncomment the logo
 import { AlignJustify, X } from 'lucide-react';
 
 const Navbar = () => {
@@ -60,6 +60,7 @@ const Navbar = () => {
           <NavLink to="/" className={getDesktopNavLinkClasses}>Home</NavLink>
           <NavLink to="/about" className={getDesktopNavLinkClasses}>About</NavLink>
           <NavLink to="/services" className={getDesktopNavLinkClasses}>Services</NavLink>
+          <NavLink to="/project" className={getDesktopNavLinkClasses}>Project</NavLink>
           <NavLink to="/contact" className={getDesktopNavLinkClasses}>Contact</NavLink>
         </div>
       </div>

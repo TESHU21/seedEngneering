@@ -1,12 +1,12 @@
 import React from 'react';
+import PrecisionImage from "../../../assets/Precision.jpg"
+import WeldingImage from "../../../assets/Welding.jpg"
+import { useNavigate } from 'react-router-dom';
 
-// Directly using contentFetchIds for the uploaded images
-const ExcavatorImage = 'uploaded:image_44156c.jpg-77f109fa-7fad-4acf-b9d4-02bae011d970'; 
-// Placeholder for the bridge image, as only one image was provided.
-// You can replace this with an actual image of a bridge or a relevant project from SEED Engineering.
 const BridgeImage = 'https://placehold.co/600x400/9CA3AF/FFFFFF?text=Complex+Project'; 
 
 const ExperienceSection = () => {
+  const navigate=useNavigate()
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-16 bg-white">
       <div className="container mx-auto">
@@ -23,11 +23,11 @@ const ExperienceSection = () => {
         {/* First Content Block: Image (Left on Desktop, Top on Mobile) and Description (Right on Desktop, Bottom on Mobile) */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-12">
           {/* Image */}
-          <div className="w-full md:w-1/2 flex justify-center md:justify-start">
+          <div className="w-full h-[500px] md:w-1/2 flex justify-center md:justify-start">
             <img
-              src={ExcavatorImage}
+              src={PrecisionImage}
               alt="Electromechanical project site with excavator"
-              className="w-full max-w-lg h-auto rounded-lg shadow-xl"
+              className="w-full max-w-lg h-auto rounded-lg shadow-xl object-cover"
               onError={(e) => {
                 e.target.onerror = null; // Prevent infinite loop
                 e.target.src = `https://placehold.co/600x400/CCCCCC/000000?text=Image+Error`;
@@ -50,7 +50,7 @@ const ExperienceSection = () => {
           {/* Image */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <img
-              src={BridgeImage}
+              src={WeldingImage}
               alt="Complex engineering project or infrastructure"
               className="w-full max-w-lg h-auto rounded-lg shadow-xl"
               onError={(e) => {
@@ -75,7 +75,8 @@ const ExperienceSection = () => {
           <p className="text-base sm:text-lg text-gray-700 max-w-3xl mb-8 mx-auto">
             Ready to start your next project? Contact us today to discuss your electromechanical needs and discover how we can bring your vision to life with passion and precision.
           </p>
-          <button className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300">
+          <button className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300 cursor-pointer"
+          onClick={()=>navigate("/contact")}>
             CONTACT US
           </button>
         </div>

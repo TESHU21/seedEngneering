@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/breadcrumb"
 import { Link } from 'react-router-dom'
 
-import WebBackgroundImage from "../../assets/ElectromechanicalWeb.jpg"
 import WelcomeSection from './components/WelcomeSection'
 import ExperienceSection from './components/ExperienceSection'
+import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
 
 const About = () => {
   return (
@@ -19,10 +19,10 @@ const About = () => {
       {/* Hero Section with Background */}
       <div
         className="relative flex justify-center items-center h-48 sm:h-64 md:h-80 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${WebBackgroundImage})` }}
+        style={{ backgroundImage: `url(${BackgroundImage})` }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#828589] to-transparent opacity-80 z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#000001] to-transparent opacity-70 z-0" />
 
         {/* Breadcrumbs */}
         <Breadcrumb
@@ -32,12 +32,12 @@ const About = () => {
           <BreadcrumbList className="flex gap-2">
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link to="/" className="hover:underline text-white leading-6 font-poppins text-xl">Home</Link>
+                <Link to="/" className="hover:underline  leading-6 font-poppins text-xl">Home</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage className="text-red-500 text-xl">About</BreadcrumbPage>
+              <BreadcrumbPage className=" text-xl">About</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>

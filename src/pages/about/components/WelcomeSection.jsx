@@ -1,9 +1,10 @@
 import React from 'react';
 import { Lightbulb, CheckCircle, DollarSign } from 'lucide-react'; // Icons for features
+import ExcellenceImage from "../../../assets/Exellence.jpg"
+import { useNavigate } from 'react-router-dom';
 
 
 // Directly using the contentFetchId for the uploaded image
-const WelcomeImage = 'uploaded:image_44fe2d.jpg-5ff565ce-312b-45e2-876b-caedf006dc76';
 const features = [
     {
       icon: <Lightbulb className="h-12 w-12 text-yellow-500" />, // Icon for Innovation
@@ -24,19 +25,17 @@ const features = [
 
 
 const WelcomeSection = () => {
+  const navigate=useNavigate()
   return (
     <div>
     <section className="flex flex-col md:flex-row items-center justify-center py-16 px-4 sm:px-8 lg:px-16 bg-white">
       {/* Left Image Area */}
-      <div className="w-full md:w-1/2 lg:w-3/5 flex justify-center md:justify-start mb-8 md:mb-0 md:pr-8">
+      <div className="w-full md:h-[600px] md:w-1/2 lg:w-3/5 flex justify-center md:justify-start mb-8 md:mb-0 md:pr-8">
         <img
-          src={WelcomeImage}
+          src={ExcellenceImage}
           alt="Electromechanical works site"
-          className="w-full max-w-lg md:max-w-none h-auto rounded-lg shadow-xl"
-          onError={(e) => {
-            e.target.onerror = null; // Prevent infinite loop
-            e.target.src = `https://placehold.co/600x400/CCCCCC/000000?text=Image+Error`;
-          }}
+          className="w-full max-w-lg md:max-w-none h-auto rounded-lg shadow-xl object-cover"
+         
         />
       </div>
 
@@ -54,7 +53,9 @@ const WelcomeSection = () => {
         <p className="text-sm sm:text-base text-gray-600 mb-8 max-w-md">
           At SEED Engineering, we are proud to be a leading Electro Mechanical Contracting Company in Ethiopia, undertaking diverse projects across manufacturing processes, industrial automation, HVAC systems, and precision metal works. Our commitment to accuracy, quality, and prompt service ensures every endeavor meets the highest standards.
         </p>
-        <button className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300">
+        <button className="bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors duration-300 cursor-pointer"
+        onClick={()=>navigate("/services")}
+        >
           OUR SERVICES
         </button>
       </div>
