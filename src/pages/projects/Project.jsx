@@ -10,54 +10,97 @@ import {
 import { Link } from 'react-router-dom';
 import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
 import TafImage from "../../assets/our services/TafImage.jpg"
+import BoilerImage from "../../assets/our services/BoilerImage.jpg"
+import SHEMUSCADA from "../../assets/our services/SHEMU SCADA.jpg"
+import KitchenImage from "../../assets/our services/Kitchen.png"
+import KitchenManufacturing from "../../assets/our services/KitchenManufacturing.png"
+import NedamcoTWRImage from "../../assets/our services/Nedamco.jpg"
 import ProjectItem from './components/ProjectItem'; 
+import WawiMilkImage from "../../assets/our services/WaWiImage.PNG"
+import NedamcoAutomation from "../../assets/our services/Nedamco Automation.jpg"
+import ControlPanelImage from "../../assets/our services/Control Panel.jpg"
+import SHEMUSCADAWEBImage from "../../assets/our services/SHEMUSCADA Design.jpg"
+import DuctImage from "../../assets/our services/Duct System.png"
+import VitaHMIImage from "../../assets/our services/VITA HMI.jpg"
+import OtherWorksImage from "../../assets/our services/OtherWorksImage.png"
+
 const projectsList = [
   {
-    image: 'https://placehold.co/600x337/F0F4F8/1A202C?text=SCADA+System',
+    image: SHEMUSCADA,
     title: "Web-Based SCADA System Deployment",
     description: "Successful deployment of a web-based SCADA system for SHEMU GROUP, enhancing operational control and data acquisition capabilities.",
     link: "/projects/scada-system-shemu-group"
   },
   {
-    image: 'https://placehold.co/600x337/D9E2EC/2D3748?text=HVAC+Installation',
-    title: "Kitchen Hood & Toilet Ventilation Installation",
-    description: "Installation of modern kitchen hood and toilet ventilation systems for a government training center, ensuring optimal air quality and comfort.",
-    link: "/projects/ventilation-installation-training-center"
+    image: SHEMUSCADAWEBImage,
+    title: "SCADA User Interface Developed by Seed Engineering for SHEMU",
+    description: "Seed Engineering designed and developed a user-friendly SCADA (Supervisory Control and Data Acquisition) interface for SHEMU, enabling real-time monitoring, control, and efficient data visualization of their industrial processes.",
+    link: "/projects/scada-system-shemu-group"
   },
-  {
-    image: 'https://placehold.co/600x337/C0CCDA/4A5568?text=Stainless+Steel+Works',
-    title: "Stainless Steel Table & Kitchen Hood Manufacturing",
-    description: "Manufacturing and installation of high-quality kitchen hoods and stainless-steel tables for Bon Royal Hotel, meeting stringent hygiene and durability standards.",
-    link: "/projects/bon-royal-hotel"
-  },
-  {
-    image: 'https://placehold.co/600x337/A7B3BF/6B7A8C?text=Duct+Work',
-    title: "Duct Work Remodeling & Boiler Maintenance",
-    description: "Comprehensive duct work remodeling and boiler burner and chimney maintenance for Executive Adama, improving HVAC efficiency and safety.",
-    link: "/projects/executive-adama-maintenance"
-  },
-  {
-    image: 'https://placehold.co/600x337/8F9AA6/8F9AA6?text=Dairy+Plant',
-    title: "Wawi Milk: Dairy Plant Full Installation",
-    description: "Complete installation of a dairy plant for Wawi Milk, including all necessary machinery and systems for efficient milk processing.",
-    link: "/projects/wawi-milk-dairy-plant"
-  },
-  {
+    {
     image: TafImage,
     title: "TF Agro Processing PLC: Full Dairy Plant Installation",
     description: "Turnkey dairy plant installation for TF Agro processing plc, delivering state-of-the-art facilities for large-scale production.",
     link: "/projects/tf-agro-processing"
   },
   {
-    image: 'https://placehold.co/600x337/5F656B/5F656B?text=Welding+Works',
+    image: NedamcoTWRImage,
+    title:"Trenchless Water Pipe Rehabilitation",
+    description: "Partnered with Nedamco Africa to implement trenchless water repair solutions in collaboration with the Harar Water and Sewerage Authority and the Dire Dawa Water and Sewerage Authority, enhancing urban water infrastructure with minimal surface disruption.",
+  
+  },
+  {
+    image: NedamcoAutomation,
+    title:"SCADA and Telemetry System Maintenance for HWSSA and DDWSSA",
+    description: "In partnership with Nedamco Africa, we are maintaining and optimizing the SCADA and telemetry systems of the Harar Water and Sewerage Authority (HWSSA) and the Dire Dawa Water and Sewerage Authority (DDWSSA). This work supports efficient, real-time monitoring and control of critical water infrastructure."
+  },
+   {
+    image: WawiMilkImage,
+    title: "Wawi Milk: Dairy Plant Full Installation",
+    description: "Complete installation of a dairy plant for Wawi Milk, including all necessary machinery and systems for efficient milk processing.",
+    link: "/projects/wawi-milk-dairy-plant"
+  },
+
+  {
+    image: VitaHMIImage,
+    title:"Custom HMI Development for VITA Spring",
+    description:  "Seed Engineering designed and developed a tailored Human-Machine Interface (HMI) for VITA Spring, providing intuitive control, real-time monitoring, and enhanced visualization to streamline their operational processes."
+  },
+  {
+    image: ControlPanelImage,
+    title:"Control Panel Developed by Seed Engineering",
+    description: "We design and develop a wide range of custom control panels tailored for various applications, ensuring reliable performance and seamless integration across industrial and utility systems.",
+  
+  },
+  {
+    image: KitchenImage,
+    title: "Kitchen Hood & Toilet Ventilation Installation",
+    description: "Installation of modern kitchen hood and toilet ventilation systems for a government training center, ensuring optimal air quality and comfort.",
+    link: "/projects/ventilation-installation-training-center"
+  },
+  {
+    image: KitchenManufacturing,
+    title: "Stainless Steel Table & Kitchen Hood Manufacturing",
+    description: "Manufacturing and installation of high-quality kitchen hoods and stainless-steel tables for Bon Royal Hotel, meeting stringent hygiene and durability standards.",
+    link: "/projects/bon-royal-hotel"
+  },
+  {
+    image: BoilerImage,
+    title: "Boiler Maintenance",
+    description: "Comprehensive duct work remodeling and boiler burner and chimney maintenance for Executive Adama, improving HVAC efficiency and safety.",
+    link: "/projects/executive-adama-maintenance"
+  },
+ 
+  {
+    image: OtherWorksImage,
     title: "Various Welding Works (Sub-contractor)",
     description: "Engaged in numerous welding works as sub-contractors, demonstrating our versatile capabilities in structural and pipeline welding.",
     link: "/projects/various-welding-works"
   },
   {
-    image: 'https://placehold.co/600x337/4A5568/4A5568?text=Workshop+Mfg',
-    title: "Workshop Manufactured Equipment",
-    description: "Showcasing various equipment and components proudly manufactured in our own workshop, reflecting our in-house production capabilities.",
+    image: DuctImage,
+    title: "Ductwork Remodeling and Boiler System Maintenance – Executive Adama",
+    description: "Executed ductwork remodeling and provided maintenance for the boiler burner and chimney system at Executive Adama, ensuring improved energy efficiency, ventilation performance, and system safety.",
     link: "/projects/workshop-manufactured"
   },
 ];

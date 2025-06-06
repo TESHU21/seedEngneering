@@ -6,6 +6,7 @@ import Contact from '@/pages/contact/Contact';
 import Services from '@/pages/services/Services';
 import About from '@/pages/about/About';
 import Project from '@/pages/projects/Project';
+import DetailPage from '@/components/ui/DetailPage';
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
         <Route path="contact" element={<Contact/>} />
         <Route path="services" element={<Services />} />
         <Route path='project' element={<Project/>}/>
+        <Route path='detail' element={<DetailPage/>}/>
 
       </Route>
 

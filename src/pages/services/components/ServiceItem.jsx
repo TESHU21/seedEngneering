@@ -30,7 +30,7 @@ const ServiceItem = ({ service }) => {
       {/* See More Link */}
       {/* Assuming 'service.link' will navigate to a more detailed page for that service */}
       <Link
-        to={service.link || "#"} // Fallback to '#' if no link is provided
+        to={"/detail"} // Fallback to '#' if no link is provided
         className="inline-block text-blue-600 font-medium hover:text-blue-800 transition-colors duration-300 uppercase text-sm tracking-wide"
       >
         SEE MORE

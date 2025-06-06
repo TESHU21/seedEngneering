@@ -60,7 +60,7 @@ const Navbar = () => {
           <NavLink to="/" className={getDesktopNavLinkClasses}>Home</NavLink>
           <NavLink to="/about" className={getDesktopNavLinkClasses}>About</NavLink>
           <NavLink to="/services" className={getDesktopNavLinkClasses}>Services</NavLink>
-          <NavLink to="/project" className={getDesktopNavLinkClasses}>Project</NavLink>
+          <NavLink to="/project" className={getDesktopNavLinkClasses}>Projects</NavLink>
           <NavLink to="/contact" className={getDesktopNavLinkClasses}>Contact</NavLink>
         </div>
       </div>
@@ -81,6 +81,8 @@ const Navbar = () => {
             <NavLink to="/" className={getMobileNavLinkClasses} onClick={() => setMenuVisibility(false)}>Home</NavLink>
             <NavLink to="/about" className={getMobileNavLinkClasses} onClick={() => setMenuVisibility(false)}>About</NavLink>
             <NavLink to="/services" className={getMobileNavLinkClasses} onClick={() => setMenuVisibility(false)}>Services</NavLink>
+            <NavLink to="/project" className={getMobileNavLinkClasses}>Projects</NavLink>
+
             <NavLink to="/contact" className={getMobileNavLinkClasses} onClick={() => setMenuVisibility(false)}>Contact</NavLink>
           </ul>
         </div>

@@ -60,7 +60,10 @@ const WelcomeSection = () => {
         </button>
       </div>
     </section>
+                      <h2 className="text-3xl font-bold text-orange-600 mb-2 text-center mt-4 mb-10">Our Values</h2>
+
     <section className="py-16 px-4 sm:px-8 lg:px-16 bg-gray-100">
+
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (

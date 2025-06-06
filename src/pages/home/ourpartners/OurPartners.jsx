@@ -34,7 +34,7 @@ const partners = [
 
 export default function OurPartners() {
   return (
-    <section className="py-16 bg-gray-100 text-center">
+    <section className="py-16 bg-gray-100 text-center mb-6">
       <h2 className="text-3xl font-bold text-orange-600 mb-8">Our Partners</h2>
 
       <Carousel

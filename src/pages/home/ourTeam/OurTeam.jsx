@@ -57,7 +57,7 @@ const teamMembers = [
 
 export default function OurTeam() {
   return (
-    <section className=" flex flex-col justify-around py-16  text-center md:px-24">
+    <section className=" flex flex-col justify-around py-16  text-center items-center md:px-24">
       <h2 className="text-3xl font-bold text-orange-600 mb-2">Our Team</h2>
       <div>
 

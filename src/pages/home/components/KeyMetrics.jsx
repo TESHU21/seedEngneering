@@ -33,6 +33,7 @@ const KeyMetrics = () => {
       className="relative w-full py-16 sm:py-24 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${ElectromechanicalWeb})` }}
     >
+
       {/* Dark overlay for text readability */}
             <div className="absolute inset-0 bg-gradient-to-r from-[#050217] to-transparent opacity-80 z-0" />
 
