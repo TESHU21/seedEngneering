@@ -1,6 +1,6 @@
 import React from 'react';
 import { Hammer, Users, Rocket, Award } from 'lucide-react'; // Importing icons from lucide-react
-import ElectromechanicalWeb from "../../../assets/ElectromechanicalWeb.jpg"
+import ElectromechanicalWeb from "../../../assets/ElectromechanicalWeb.webp"
 
 const KeyMetrics = () => {
   // Directly using the contentFetchId for the uploaded background image

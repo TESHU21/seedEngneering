@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import FoodProcessorImage from "../../../assets/food processing plant.jpg";
-import PLCImage from "../../../assets/PLC automation.jpg";
-import ElectricalImage from "../../../assets/electricaltools.jpg"
-import ScadaImage from "../../../assets/scada.jpg"
-import WeldingImage from "../../../assets/Welding.jpg"
-import InstallationImage from "../../../assets/Installation.jpg"
-import HVACImage from "../../../assets/HVAC.jpg"
+import FoodProcessorImage from "../../../assets/food processing plant.webp";
+import PLCImage from "../../../assets/PLC automation.webp";
+import ElectricalImage from "../../../assets/electricaltools.webp"
+import ScadaImage from "../../../assets/scada.webp"
+import WeldingImage from "../../../assets/Welding.webp"
+import InstallationImage from "../../../assets/Installation.webp"
+import HVACImage from "../../../assets/HVAC.webp"
 import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {

@@ -8,21 +8,21 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from 'react-router-dom';
-import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
-import TafImage from "../../assets/our services/TafImage.jpg"
-import BoilerImage from "../../assets/our services/BoilerImage.jpg"
-import SHEMUSCADA from "../../assets/our services/SHEMU SCADA.jpg"
-import KitchenImage from "../../assets/our services/Kitchen.png"
-import KitchenManufacturing from "../../assets/our services/KitchenManufacturing.png"
-import NedamcoTWRImage from "../../assets/our services/Nedamco.jpg"
+import BackgroundImage from "../../assets/PagesBackgroundImage.webp"
+import TafImage from "../../assets/our services/TafImage.webp"
+import BoilerImage from "../../assets/our services/BoilerImage.webp"
+import SHEMUSCADA from "../../assets/our services/SHEMU SCADA.webp"
+import KitchenImage from "../../assets/our services/Kitchen.webp"
+import KitchenManufacturing from "../../assets/our services/KitchenManufacturing.webp"
+import NedamcoTWRImage from "../../assets/our services/Nedamco.webp"
 import ProjectItem from './components/ProjectItem'; 
-import WawiMilkImage from "../../assets/our services/WaWiImage.PNG"
-import NedamcoAutomation from "../../assets/our services/Nedamco Automation.jpg"
-import ControlPanelImage from "../../assets/our services/Control Panel.jpg"
-import SHEMUSCADAWEBImage from "../../assets/our services/SHEMUSCADA Design.jpg"
-import DuctImage from "../../assets/our services/Duct System.png"
-import VitaHMIImage from "../../assets/our services/VITA HMI.jpg"
-import OtherWorksImage from "../../assets/our services/OtherWorksImage.png"
+import WawiMilkImage from "../../assets/our services/WaWiImage.webp"
+import NedamcoAutomation from "../../assets/our services/Nedamco Automation.webp"
+import ControlPanelImage from "../../assets/our services/Control Panel.webp"
+import SHEMUSCADAWEBImage from "../../assets/our services/SHEMUSCADA Design.webp"
+import DuctImage from "../../assets/our services/Duct System.webp"
+import VitaHMIImage from "../../assets/our services/VITA HMI.webp"
+import OtherWorksImage from "../../assets/our services/OtherWorksImage.webp"
 
 const projectsList = [
   {

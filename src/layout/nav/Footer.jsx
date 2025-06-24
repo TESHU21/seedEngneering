@@ -2,7 +2,7 @@ import React from 'react'
 // import AzubiLogo1 from "../assets/svg/Azubi-Logo1.svg"
 import { Copyright,ArrowUp } from 'lucide-react'
 import { Link, NavLink } from 'react-router-dom'
-import SeedLogo from "../../assets/SeedLogo2.png" 
+import SeedLogo from "../../assets/SeedLogo2.webp"
 const Footer = () => {
   return (
     <div className=' bg-[#2c2d83] px-[30px] md:px-[200px] ' >

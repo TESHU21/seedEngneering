@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, NavLink } from 'react-router-dom';
-import SeedLogo from '../../assets/Seed Logo.png'; // Ensure this path is correct if you uncomment the logo
+import SeedLogo from '../../assets/Seed Logo.webp'; // Ensure this path is correct if you uncomment the logo
 import { AlignJustify, X } from 'lucide-react';
 
 const Navbar = () => {

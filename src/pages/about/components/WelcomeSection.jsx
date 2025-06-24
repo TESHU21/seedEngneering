@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lightbulb, CheckCircle, DollarSign } from 'lucide-react'; // Icons for features
-import ExcellenceImage from "../../../assets/Exellence.jpg"
+import ExcellenceImage from "../../../assets/Exellence.webp"
 import { useNavigate } from 'react-router-dom';
 
 

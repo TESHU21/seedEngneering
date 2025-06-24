@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 import WelcomeSection from './components/WelcomeSection'
 import ExperienceSection from './components/ExperienceSection'
-import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
+import BackgroundImage from "../../assets/PagesBackgroundImage.webp"
 
 const About = () => {
   return (

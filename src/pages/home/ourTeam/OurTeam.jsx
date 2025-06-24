@@ -1,8 +1,8 @@
 // app/(your-page)/OurTeam.jsx
 import TeamCard from "./TeamCard";
-import MichaelImage from "../../../assets/Michael Hadera.jpg"
-import TewodrosImage from "../../../assets/Tewdros Eshetu.jpg"
-import HaileImage from "../../../assets/HailePhoto.jpg"
+import MichaelImage from "../../../assets/Michael Hadera.webp"
+import TewodrosImage from "../../../assets/Tewdros Eshetu.webp"
+import HaileImage from "../../../assets/HailePhoto.webp"
 
 const teamMembers = [
   {

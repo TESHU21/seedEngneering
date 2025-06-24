@@ -1,6 +1,6 @@
 import React from 'react';
-import PrecisionImage from "../../../assets/Precision.jpg"
-import WeldingImage from "../../../assets/Welding.jpg"
+import PrecisionImage from "../../../assets/Precision.webp"
+import WeldingImage from "../../../assets/Welding.webp"
 import { useNavigate } from 'react-router-dom';
 
 const BridgeImage = 'https://placehold.co/600x400/9CA3AF/FFFFFF?text=Complex+Project'; 

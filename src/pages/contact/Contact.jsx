@@ -11,7 +11,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from 'react-router-dom';
-import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
+import BackgroundImage from "../../assets/PagesBackgroundImage.webp"
 
 const Contact = () => {
   const [formData, setFormData] = useState({

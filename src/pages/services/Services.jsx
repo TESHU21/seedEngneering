@@ -8,13 +8,13 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Link } from 'react-router-dom';
-import BackgroundImage from "../../assets/PagesBackgroundImage.jpg"
-import IndustrialAutomationImage from "../../assets/PLC automation.jpg"
-import HVACImage from "../../assets/HVAC2.jpg"
-import ManufacturingImage from "../../assets/Manufacturing.jpg"
-import MaintenanceImage from "../../assets/Maintenance.jpg"
-import FoodPlantImage from "../../assets/FoodPlant.jpg"
-import WeldingImage from "../../assets/Welding.jpg"
+import BackgroundImage from "../../assets/PagesBackgroundImage.webp"
+import IndustrialAutomationImage from "../../assets/PLC automation.webp"
+import HVACImage from "../../assets/HVAC2.webp"
+import ManufacturingImage from "../../assets/Manufacturing.webp"
+import MaintenanceImage from "../../assets/Maintenance.webp"
+import FoodPlantImage from "../../assets/FoodPlant.webp"
+import WeldingImage from "../../assets/Welding.webp"
 
 import ServiceItem from './components/ServiceItem'; // Adjust path if necessary based on your file structure
 

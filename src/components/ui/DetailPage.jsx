@@ -1,5 +1,5 @@
 import React from 'react';
-import DevelopmentImage from "../../assets/our services/Development.svg"
+import DevelopmentImage from "../../assets/our services/Development.jpg"
 import { useNavigate } from 'react-router-dom';
 
 

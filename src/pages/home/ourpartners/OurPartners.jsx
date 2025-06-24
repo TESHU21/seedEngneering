@@ -10,12 +10,12 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ShemuLogo from "../../../assets/partners/SHEMLOGO.jpg"
-import PepsicoLogo from "../../../assets/partners/PEPSICOLogo.jpg"
-import Nedamco from "../../../assets/partners/LOGO-Nedamco-Africa-ZWART.png"
-import DagLogo from "../../../assets/partners/dagLogo.jpg"
-import CBELogo from "../../../assets/partners/CBELogo.jpg"
-import EtioTelecomLogo from "../../../assets/partners/EthioTelecom.jpg"
-import AwashBanklogo from "../../../assets/partners/AwashLogo.jpg"
+import PepsicoLogo from "../../../assets/partners/PEPSICOLogo.webp"
+import Nedamco from "../../../assets/partners/LOGO-Nedamco-Africa-ZWART.webp"
+import DagLogo from "../../../assets/partners/dagLogo.webp"
+import CBELogo from "../../../assets/partners/CBELogo.webp"
+import EtioTelecomLogo from "../../../assets/partners/EthioTelecom.webp"
+import AwashBanklogo from "../../../assets/partners/AwashLogo.webp"
 
 const partners = [
   {name:"Pepsico",logo:PepsicoLogo},
