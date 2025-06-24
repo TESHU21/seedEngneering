@@ -6,7 +6,7 @@ export default function TeamCard({ name, role, email, image, socials }) {
   return (
     <Card className="w-full max-w-xs shadow-lg hover:scale-105 transition-transform">
       <CardContent className="flex flex-col items-center p-6">
-        <img src={image} alt={name} className="w-32 h-32 rounded-full object-cover mb-4" />
+        <img src={image} alt={name} className="w-36 h-36 rounded-full   object-center mb-4 " />
         <h3 className="text-lg font-bold text-center">{name}</h3>
         <p className="text-sm text-gray-500 text-center">{role}</p>
         <p className="text-sm text-gray-400 text-center">{email}</p>

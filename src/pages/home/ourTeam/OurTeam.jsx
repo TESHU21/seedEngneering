@@ -3,6 +3,8 @@ import TeamCard from "./TeamCard";
 import MichaelImage from "../../../assets/Michael Hadera.webp"
 import TewodrosImage from "../../../assets/Tewdros Eshetu.webp"
 import HaileImage from "../../../assets/HailePhoto.webp"
+import TitoImage from "../../../assets/TitoImage.webp"
+import BiniamImage from "../../../assets/BiniamImage.webp"
 
 const teamMembers = [
   {
@@ -41,28 +43,41 @@ const teamMembers = [
       email: "info@example.com",
     },
   },
-  // {
-  //   name: "Philip Alvarez",
-  //   role: "Finances",
-  //   email: "info@example.com",
-  //   image: "/images/philip.jpg",
-  //   socials: {
-  //     facebook: "https://facebook.com/philip",
-  //     twitter: "https://twitter.com/philip",
-  //     linkedin: "https://linkedin.com/in/philip",
-  //     email: "info@example.com",
-  //   },
-  // },
+  {
+    name: "Tito Shitahun Haregu",
+    role: "HVAC Engineer",
+    // email: "info@example.com",
+    image: TitoImage,
+    socials: {
+      facebook: "https://facebook.com/john",
+      twitter: "https://twitter.com/john",
+      linkedin: "https://linkedin.com/in/john",
+      email: "info@example.com",
+    },
+  },
+  {
+    name: "Biniyam Birhane Tafere",
+    role: "Electrical Engineer",
+    // email: "info@example.com",
+    image: BiniamImage,
+    socials: {
+      facebook: "https://facebook.com/john",
+      twitter: "https://twitter.com/john",
+      linkedin: "https://linkedin.com/in/john",
+      email: "info@example.com",
+    },
+  },
+
 ];
 
 export default function OurTeam() {
   return (
-    <section className=" flex flex-col justify-around py-16  text-center items-center md:px-24">
+    <section className=" flex flex-col justify-between py-16  text-center items-center md:px-24">
       <h2 className="text-3xl font-bold text-orange-600 mb-2">Our Team</h2>
       <div>
 
       </div>
-      <div className="md:px-30 mt-10 grid gap-1 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+      <div className="md:px-10 mt-10 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
         {teamMembers.map((member) => (
           <TeamCard key={member.name} {...member} />
         ))}
